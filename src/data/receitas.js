@@ -174,6 +174,34 @@ const receitas = [
       "Leve à geladeira por 30 minutos antes de servir. Duram até 2 semanas na geladeira.",
     ],
   },
+  {
+    id: 7,
+    nome: "Cachorro quente saudável",
+    categoria: "Lanches",
+    imagem: "https://images.unsplash.com/photo-1638368593117-f87fb4ebeb74?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tempo: "40 min",
+    porcoes: 12,
+    tags: ["sem-gluten", "sem-conservantes", "rico em proteínas"],
+    descricao: "Uma alternativa nutritiva e colorida à salsicha tradicional. Feita com peito de frango e legumes, sem aditivos químicos.",
+    ingredientes: [
+      { quantidade: "1", unidade: "kg", item: "peito de frango em cubos" },
+      { quantidade: "1", unidade: "unidade", item: "cenoura média" },
+      { quantidade: "1", unidade: "unidade", item: "beterraba pequena" },
+      { quantidade: "2", unidade: "dentes", item: "alho" },
+      { quantidade: "a gosto", unidade: "", item: "sal e páprica defumada" },
+      { quantidade: "", unidade: "", item: "plástico filme para moldar" },
+    ],
+    modo_preparo: [
+      "Cozinhe a cenoura, a beterraba e o alho no vapor até ficarem bem macios.",
+      "No processador, bata o frango cru com os legumes cozidos e os temperos até formar uma massa lisa.",
+      "Coloque porções da massa sobre plástico filme e enrole firmemente em formato de cilindro.",
+      "Amarre bem as pontas do plástico para manter o formato de salsicha.",
+      "Leve ao congelador por pelo menos 2 horas para firmar.",
+      "Retire do plástico e doure em uma frigideira com um fio de azeite.",
+      "Se preferir, finalize o cozimento mergulhando as salsichas em molho de tomate caseiro por 10 minutos.",
+      "Sirva em pães integrais com ketchup sem açúcar, mostarda e vegetais frescos.",
+    ],
+  },
 ];
 
 export default receitas;
