@@ -1,0 +1,268 @@
+.detalhe {
+  min-height: 100vh;
+}
+
+.detalhe-hero {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.detalhe-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detalhe-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 40%, rgba(44,24,16,0.5) 100%);
+}
+
+.voltar-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(255,255,255,0.9);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brown-deep);
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.detalhe-fav {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255,255,255,0.9);
+  border: none;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+.detalhe-fav:active { transform: scale(1.3); }
+
+/* Content */
+.detalhe-content {
+  background: var(--cream);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  margin-top: -24px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.detalhe-topo {
+  padding: 28px 20px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.detalhe-categoria {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--terracotta);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.detalhe-nome {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.25;
+  margin: 8px 0;
+}
+
+.detalhe-descricao {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.detalhe-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+/* Meta */
+.detalhe-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+}
+
+.meta-icon { font-size: 20px; }
+
+.meta-val {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: 'Playfair Display', serif;
+}
+
+.meta-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.meta-divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border);
+}
+
+.porcoes-ajuste {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.porcoes-ajuste button {
+  background: var(--terracotta);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding-bottom: 1px;
+}
+
+/* Sections */
+.detalhe-section {
+  padding: 24px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.detalhe-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+/* Ingredientes */
+.ingredientes-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ingrediente-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.ingrediente-item:last-child { border-bottom: none; }
+
+.ing-qtd {
+  font-weight: 700;
+  color: var(--terracotta);
+  font-size: 14px;
+  min-width: 90px;
+  flex-shrink: 0;
+}
+
+.ing-item {
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+/* Passos */
+.preparo-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.passos-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.passo-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-card);
+}
+
+.passo-item--ativo {
+  border-color: var(--terracotta);
+  background: #FFF8F5;
+}
+
+.passo-item--feito {
+  opacity: 0.5;
+  background: #F5F5F5;
+}
+.passo-item--feito .passo-num {
+  background: var(--sage);
+}
+
+.passo-num {
+  background: var(--brown-deep);
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.passo-texto {
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.6;
+}

@@ -1,0 +1,90 @@
+.categorias { padding-bottom: 20px; }
+
+.cat-header {
+  padding: 56px 20px 28px;
+  background: linear-gradient(135deg, var(--sage) 0%, #4a7a50 100%);
+}
+
+.cat-title {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+
+.cat-subtitle {
+  color: rgba(255,255,255,0.85);
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.cats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.cat-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-card);
+}
+
+.cat-card--ativa {
+  border-color: var(--cat-cor, var(--terracotta));
+  background: color-mix(in srgb, var(--cat-cor, var(--terracotta)) 8%, white);
+}
+
+.cat-card:active { transform: scale(0.98); }
+
+.cat-card-emoji { font-size: 32px; }
+
+.cat-card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cat-card-nome {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.cat-card-qtd {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.cat-card-arrow {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Receitas da categoria */
+.cat-receitas {
+  padding: 0 20px 20px;
+}
+
+.cat-receitas-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.receitas-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}

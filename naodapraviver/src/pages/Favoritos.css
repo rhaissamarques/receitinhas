@@ -1,0 +1,25 @@
+.favoritos { padding-bottom: 20px; }
+
+.fav-header {
+  padding: 56px 20px 24px;
+  background: linear-gradient(135deg, #b5254e 0%, #e05580 100%);
+}
+
+.fav-title {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+
+.fav-subtitle {
+  color: rgba(255,255,255,0.85);
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.fav-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 20px;
+}
