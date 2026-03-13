@@ -202,6 +202,30 @@ const receitas = [
       "Sirva em pães integrais com ketchup sem açúcar, mostarda e vegetais frescos.",
     ],
   },
+  {
+    id: 8,
+    nome: "Pão fit low carb",
+    categoria: "Lanches",
+    imagem: "https://plus.unsplash.com/premium_photo-1725986731928-ed19104ead45?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tempo: "5 min",
+    porcoes: 1,
+    tags: ["low-carb", "rápido", "rico em proteínas"],
+    descricao: "Um pão low carb simples e rápido feito no micro-ondas. Ideal para um lanche saudável e prático, podendo ser recheado com opções leves.",
+    ingredientes: [
+    { quantidade: "1", unidade: "colher (sopa)", item: "fermento em pó químico" },
+    { quantidade: "1", unidade: "colher (sopa)", item: "queijo parmesão ralado" },
+    { quantidade: "1", unidade: "unidade", item: "ovo" },
+    { quantidade: "2", unidade: "colheres", item: "requeijão light" }
+  ],
+  modo_preparo: [
+    "Em um refratário de vidro pequeno, adicione o ovo, o requeijão, o queijo parmesão ralado e o fermento.",
+    "Misture bem todos os ingredientes até formar uma massa homogênea.",
+    "Leve ao micro-ondas por aproximadamente 3 minutos.",
+    "Retire do micro-ondas, corte ao meio se desejar e adicione um recheio low carb de sua preferência.",
+    "Leve à grill ou frigideira para dourar e deixar o pão levemente crocante."
+  ]
+}
+
 ];
 
 export default receitas;
