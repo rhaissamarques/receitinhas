@@ -26,6 +26,7 @@ export default function App() {
   const abrirReceita = (receita) => {
     setReceitaSelecionada(receita)
     setPagina('detalhe')
+    window.scrollTo(0, 0)
   }
 
   const abrirCategoria = (cat) => {

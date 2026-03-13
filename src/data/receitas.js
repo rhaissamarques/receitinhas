@@ -11,7 +11,7 @@ const receitas = [
     id: 1,
     nome: "Panqueca de Banana com Aveia",
     categoria: "Café da manhã",
-    imagem: "https://images.unsplash.com/photo-1565299543923-37dd37887442?w=600&q=80",
+    imagem: "https://i.imgur.com/M5zGx9W.png",
     tempo: "15 min",
     porcoes: 2,
     tags: ["sem-gluten", "sem-acucar", "low-carb"],
@@ -39,7 +39,7 @@ const receitas = [
     id: 2,
     nome: "Cumbuca de Frango Grelhado com Quinoa",
     categoria: "Almoço",
-    imagem: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+    imagem: "https://i.imgur.com/lZp53Cz.png",
     tempo: "30 min",
     porcoes: 2,
     tags: ["sem-gluten", "sem-acucar", "low-carb"],
@@ -66,9 +66,9 @@ const receitas = [
   },
   {
     id: 3,
-    nome: "Salmão ao Forno com Legumes",
+    nome: "Salmão com Legumes ao Forno",
     categoria: "Jantar",
-    imagem: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+    imagem: "https://i.imgur.com/9TgSMN6.png",
     tempo: "35 min",
     porcoes: 2,
     tags: ["sem-gluten", "sem-acucar", "low-carb"],
@@ -97,7 +97,7 @@ const receitas = [
     id: 4,
     nome: "Mousse de Cacau e Abacate",
     categoria: "Sobremesas",
-    imagem: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
+    imagem: "https://i.imgur.com/6gI6gvM.png",
     tempo: "10 min",
     porcoes: 4,
     tags: ["sem-gluten", "sem-acucar", "low-carb"],
@@ -123,7 +123,7 @@ const receitas = [
     id: 5,
     nome: "Omelete de Espinafre e Ricota",
     categoria: "Café da manhã",
-    imagem: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=600&q=80",
+    imagem: "https://i.imgur.com/67SQOI4.png",
     tempo: "12 min",
     porcoes: 1,
     tags: ["sem-gluten", "sem-acucar", "low-carb"],
@@ -150,7 +150,7 @@ const receitas = [
     id: 6,
     nome: "Bolinha de Castanha e Tâmara",
     categoria: "Lanches",
-    imagem: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
+    imagem: "https://i.imgur.com/jZlLJcG.png",
     tempo: "20 min",
     porcoes: 16,
     tags: ["sem-gluten", "sem-acucar"],
@@ -176,9 +176,9 @@ const receitas = [
   },
   {
     id: 7,
-    nome: "Cachorro quente saudável",
+    nome: "Cachorro Quente Saudável",
     categoria: "Lanches",
-    imagem: "https://images.unsplash.com/photo-1638368593117-f87fb4ebeb74?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imagem: "https://i.imgur.com/fh5jPB0.png",
     tempo: "40 min",
     porcoes: 12,
     tags: ["sem-gluten", "sem-conservantes", "rico em proteínas"],
@@ -204,9 +204,9 @@ const receitas = [
   },
   {
     id: 8,
-    nome: "Pão fit low carb",
+    nome: "Pão Fit Low Carb",
     categoria: "Lanches",
-    imagem: "https://plus.unsplash.com/premium_photo-1725986731928-ed19104ead45?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imagem: "https://i.imgur.com/KMqp8km.png",
     tempo: "5 min",
     porcoes: 1,
     tags: ["low-carb", "rápido", "rico em proteínas"],
@@ -229,7 +229,7 @@ const receitas = [
     id: 9,
     nome: "Bolinho de arroz com frango e aveia",
     categoria: "Lanches",
-    imagem: "https://plus.unsplash.com/premium_photo-1726866157478-6752d0d86efc?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imagem: "https://i.imgur.com/ErQzZBs.png",
     tempo: "40 min",
     porcoes: 10,
     tags: ["rico em proteínas", "integral", "assado"],
@@ -255,9 +255,9 @@ const receitas = [
   },
   {
     id: 10,
-    nome: "Coxinha low carb",
+    nome: "Coxinha Low Carb",
     categoria: "Lanches",
-    imagem: "https://plus.unsplash.com/premium_photo-1667664484053-ef74044a89a5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imagem: "https://i.imgur.com/hJXE1Rp.png",
     tempo: "50 min",
     porcoes: 10,
     tags: ["low-carb", "sem-gluten", "rico em proteínas", "assado"],
@@ -289,8 +289,63 @@ const receitas = [
       "Coloque em uma forma e leve ao forno preaquecido a 180 °C por cerca de 35 minutos, até dourar."
     ]
   },
-
-
+    {
+    id: 11,
+    nome: "Fritata de Mandioquinha com Cebola",
+    categoria: "Jantar",
+    imagem: "https://i.imgur.com/WwnDPmF.png",
+    tempo: "30 min",
+    porcoes: 1,
+    tags: ["low-carb", "sem-gluten", "rico em proteínas", "assado"],
+    descricao: "A prima italiana da omelete, a fritata é uma opção versátil e deliciosa para o jantar. Esta versão leva mandioquinha e cebola, resultando em um prato cremoso e cheio de sabor.",
+    ingredientes: [
+    { quantidade: "2", unidade: "un", item: "ovos" },
+    { quantidade: "1", unidade: "unidade", item: "mandioquinha" },
+    { quantidade: "1/2", unidade: "un", item: "cebola" },
+    { quantidade: "3", unidade: "colheres sopa", item: "azeite" },
+    { quantidade: "a gosto", unidade: "", item: "sal" }
+    ],
+    modo_preparo: [
+      "Preaqueça o forno a 180°C (temperatura média).",
+      "Descasque e rale a mandioquinha e a cebola no ralador grosso.",
+      "Numa frigideira antiaderente, coloque o azeite, a mandioquinha e a cebola.",
+      "Tempere com sal e refogue por cerca de 8 minutos, mexendo sempre.",
+      "Transfira para um recipiente que possa ir ao forno.",
+      "Numa tigela quebre os ovos e bata bem com um garfo para misturar as claras com as gemas.",
+      "Jogue os ovos batidos sobre a mandioquinha refogada com cebola.",
+      "Com uma espátula, nivele a fritata e leve ao forno.",
+      "Deixe assar por cerca de 12 minutos até inflar e dourar.",
+      "Sirva com salada de pimentão marinado."
+    ]
+  },
+    {
+    id: 12,
+    nome: "Salada de Pimentão Marinado",
+    categoria: "Jantar",
+    imagem: "https://i.imgur.com/Oy9bmmt.png",
+    tempo: "50 min",
+    porcoes: 2,
+    tags: ["low-carb", "sem-gluten", "assado"],
+    descricao: "Acompanhamento perfeito para a fritata de mandioquinha, esta salada de pimentão marinado é fresca, colorida e cheia de sabor.",
+    ingredientes: [
+    { quantidade: "2", unidade: "un", item: "pimentões vermelhos" },
+    { quantidade: "4", unidade: "ramos", item: "hortelã" },
+    { quantidade: "1", unidade: "colher sopa", item: "vinagre de vinho branco" },
+    { quantidade: "1", unidade: "colher sopa", item: "azeite" },
+    { quantidade: "a gosto", unidade: "", item: "sal" }
+    ],
+    modo_preparo: [
+      "Preaqueça o forno a 220°C (temperatura alta).",
+      "Lave, seque e coloque os pimentões inteiros em uma assadeira.",
+      "Leve ao forno para assar por cerca de 30 minutos, até a pele chamuscar (na metade do tempo, vire os pimentões).",
+      "Transfira os pimentões para uma tigela, cubra com papel filme e deixe abafar por 10 minutos (Fica mais fácil para descascar).",
+      "Lave, seque e pique bem fino as folhas de hortelã.",
+      "Raspe os pimentões com o lado contrário da lâmina da faca para remover a pele queimada e limpe os queimados restantes com um papel toalha.",
+      "Corte os pimentões ao meio, descarte as sementes e corte cada metade em tiras.",
+      "Em uma tigela, tempere as tiras de pimentão ainda mornas com azeite, vinagre, sal e misture bem a hortelã.",
+      "Sirva com a Fritata de Mandioquinha."
+    ]
+  },
 ];
 
 export default receitas;
