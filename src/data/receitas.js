@@ -216,15 +216,43 @@ const receitas = [
     { quantidade: "1", unidade: "colher (sopa)", item: "queijo parmesão ralado" },
     { quantidade: "1", unidade: "unidade", item: "ovo" },
     { quantidade: "2", unidade: "colheres", item: "requeijão light" }
-  ],
-  modo_preparo: [
-    "Em um refratário de vidro pequeno, adicione o ovo, o requeijão, o queijo parmesão ralado e o fermento.",
-    "Misture bem todos os ingredientes até formar uma massa homogênea.",
-    "Leve ao micro-ondas por aproximadamente 3 minutos.",
-    "Retire do micro-ondas, corte ao meio se desejar e adicione um recheio low carb de sua preferência.",
-    "Leve à grill ou frigideira para dourar e deixar o pão levemente crocante."
-  ]
-}
+    ],
+    modo_preparo: [
+      "Em um refratário de vidro pequeno, adicione o ovo, o requeijão, o queijo parmesão ralado e o fermento.",
+      "Misture bem todos os ingredientes até formar uma massa homogênea.",
+      "Leve ao micro-ondas por aproximadamente 3 minutos.",
+      "Retire do micro-ondas, corte ao meio se desejar e adicione um recheio low carb de sua preferência.",
+      "Leve à grill ou frigideira para dourar e deixar o pão levemente crocante."
+    ]
+  },
+  {
+  id: 9,
+  nome: "Bolinho de arroz com frango e aveia",
+  categoria: "Lanches",
+  imagem: "https://plus.unsplash.com/premium_photo-1726866157478-6752d0d86efc?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  tempo: "40 min",
+  porcoes: 10,
+  tags: ["rico em proteínas", "integral", "assado"],
+  descricao: "Bolinhos nutritivos feitos com arroz integral, frango desfiado e aveia. Uma ótima forma de aproveitar sobras de arroz e preparar um lanche saudável e saboroso.",
+  ingredientes: [
+    { quantidade: "1", unidade: "unidade", item: "batata asterix cozida" },
+    { quantidade: "1 1/2", unidade: "xícara", item: "arroz integral cozido" },
+    { quantidade: "1", unidade: "xícara", item: "frango desfiado" },
+    { quantidade: "3", unidade: "colheres (sopa)", item: "farelo de aveia" },
+    { quantidade: "1", unidade: "unidade", item: "ovo" },
+    { quantidade: "3", unidade: "colheres (sopa)", item: "cheiro-verde picado" },
+    { quantidade: "a gosto", unidade: "", item: "pimenta-do-reino" },
+    { quantidade: "1", unidade: "colher (chá)", item: "orégano seco" },
+    { quantidade: "1/2", unidade: "xícara", item: "queijo parmesão ralado" }
+    ],
+    modo_preparo: [
+      "Em uma tigela, amasse bem a batata cozida até formar um purê.",
+      "Adicione o arroz integral cozido, o frango desfiado, o farelo de aveia, o ovo, o cheiro-verde, a pimenta-do-reino, o orégano e o queijo parmesão ralado.",
+      "Misture todos os ingredientes até obter uma massa homogênea.",
+      "Modele pequenos bolinhos com as mãos e coloque-os em uma forma untada com azeite.",
+      "Leve ao forno preaquecido a 200 °C por cerca de 20 minutos, ou até ficarem levemente dourados."
+    ]
+  },
 
 ];
 
