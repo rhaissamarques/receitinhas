@@ -54,6 +54,8 @@ html, body {
 .main-content {
   padding-bottom: var(--navbar-h);
   min-height: 100vh;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 /* Typography */

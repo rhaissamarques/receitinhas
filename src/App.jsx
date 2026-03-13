@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Home from './pages/Home'
 import ReceitaDetalhe from './pages/ReceitaDetalhe'
 import Favoritos from './pages/Favoritos'
@@ -27,7 +27,19 @@ export default function App() {
     setReceitaSelecionada(receita)
     setPagina('detalhe')
     window.scrollTo(0, 0)
+    window.history.pushState({ pagina: 'detalhe' }, '')
   }
+
+  useEffect(() => {
+    const handlePopState = () => {
+      if (pagina === 'detalhe') {
+        setPagina('home')
+        setReceitaSelecionada(null)
+      }
+    }
+  window.addEventListener('popstate', handlePopState)
+  return () => window.removeEventListener('popstate', handlePopState)
+  }, [pagina])
 
   const abrirCategoria = (cat) => {
     setCategoriaFiltro(cat)
