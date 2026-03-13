@@ -226,15 +226,15 @@ const receitas = [
     ]
   },
   {
-  id: 9,
-  nome: "Bolinho de arroz com frango e aveia",
-  categoria: "Lanches",
-  imagem: "https://plus.unsplash.com/premium_photo-1726866157478-6752d0d86efc?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  tempo: "40 min",
-  porcoes: 10,
-  tags: ["rico em proteínas", "integral", "assado"],
-  descricao: "Bolinhos nutritivos feitos com arroz integral, frango desfiado e aveia. Uma ótima forma de aproveitar sobras de arroz e preparar um lanche saudável e saboroso.",
-  ingredientes: [
+    id: 9,
+    nome: "Bolinho de arroz com frango e aveia",
+    categoria: "Lanches",
+    imagem: "https://plus.unsplash.com/premium_photo-1726866157478-6752d0d86efc?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tempo: "40 min",
+    porcoes: 10,
+    tags: ["rico em proteínas", "integral", "assado"],
+    descricao: "Bolinhos nutritivos feitos com arroz integral, frango desfiado e aveia. Uma ótima forma de aproveitar sobras de arroz e preparar um lanche saudável e saboroso.",
+    ingredientes: [
     { quantidade: "1", unidade: "unidade", item: "batata asterix cozida" },
     { quantidade: "1 1/2", unidade: "xícara", item: "arroz integral cozido" },
     { quantidade: "1", unidade: "xícara", item: "frango desfiado" },
@@ -253,6 +253,43 @@ const receitas = [
       "Leve ao forno preaquecido a 200 °C por cerca de 20 minutos, ou até ficarem levemente dourados."
     ]
   },
+  {
+    id: 10,
+    nome: "Coxinha low carb",
+    categoria: "Lanches",
+    imagem: "https://plus.unsplash.com/premium_photo-1667664484053-ef74044a89a5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tempo: "50 min",
+    porcoes: 10,
+    tags: ["low-carb", "sem-gluten", "rico em proteínas", "assado"],
+    descricao: "Uma versão low carb da tradicional coxinha brasileira. A massa leva frango e couve-flor, e o empanado é feito com farinha de linhaça, resultando em um salgado nutritivo e assado.",
+    ingredientes: [
+    { quantidade: "1", unidade: "fio", item: "azeite" },
+    { quantidade: "1", unidade: "unidade", item: "cebola picada" },
+    { quantidade: "5", unidade: "dentes", item: "alho picado" },
+    { quantidade: "1", unidade: "unidade", item: "tomate picado" },
+    { quantidade: "500", unidade: "g", item: "peito de frango desfiado" },
+    { quantidade: "a gosto", unidade: "", item: "sal" },
+    { quantidade: "a gosto", unidade: "", item: "pimenta-do-reino" },
+    { quantidade: "a gosto", unidade: "", item: "cheiro-verde" },
+    { quantidade: "1", unidade: "unidade", item: "couve-flor picada" },
+    { quantidade: "150", unidade: "g", item: "creme de ricota" },
+    { quantidade: "100", unidade: "g", item: "queijo meia cura ralado" },
+    { quantidade: "1", unidade: "xícara", item: "farinha de linhaça" }
+    ],
+    modo_preparo: [
+      "Em uma frigideira, aqueça um fio de azeite e refogue a cebola e o alho picados.",
+      "Adicione o tomate e refogue por alguns minutos.",
+      "Acrescente o frango desfiado, o sal, a pimenta-do-reino e o cheiro-verde e misture bem.",
+      "Transfira essa mistura para um processador e adicione a couve-flor picada.",
+      "Bata bem até formar uma massa homogênea para modelar as coxinhas.",
+      "Em uma tigela separada, misture o creme de ricota com o queijo meia cura ralado para fazer o recheio.",
+      "Pegue uma porção da massa, abra na mão e coloque um pouco do recheio no centro.",
+      "Feche modelando no formato tradicional de coxinha.",
+      "Passe as coxinhas na farinha de linhaça para empanar.",
+      "Coloque em uma forma e leve ao forno preaquecido a 180 °C por cerca de 35 minutos, até dourar."
+    ]
+  },
+
 
 ];
 
